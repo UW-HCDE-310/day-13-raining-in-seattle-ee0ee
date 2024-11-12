@@ -7,5 +7,3 @@ def is_it_raining_in_seattle():
         return True
     else:
         return False
-
-print(is_it_raining_in_seattle())
