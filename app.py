@@ -7,6 +7,6 @@ def is_it_raining_in_seattle():
         is_it_raining_in_seattle = response.read().decode()
 
     if is_it_raining_in_seattle == "true":
-        return "Yes"
+        return "<h1>Yes</h1>"
     else:
-        return "No"
+        return "<h1>No</h1>"
